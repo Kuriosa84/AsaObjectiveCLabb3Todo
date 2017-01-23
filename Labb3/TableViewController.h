@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  Labb3
 //
 //  Created by Asa Kwarnmark on 2017-01-23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-
