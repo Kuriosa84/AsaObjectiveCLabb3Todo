@@ -14,6 +14,7 @@
 		47D3995E1E36436E00905F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D3995D1E36436E00905F76 /* Assets.xcassets */; };
 		47D399611E36436E00905F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D3995F1E36436E00905F76 /* LaunchScreen.storyboard */; };
 		47D3996A1E36451F00905F76 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D399691E36451F00905F76 /* TableViewController.m */; };
+		47D3996D1E36496600905F76 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D3996C1E36496600905F76 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		47D399621E36436E00905F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D399681E36451F00905F76 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		47D399691E36451F00905F76 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		47D3996B1E36496600905F76 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		47D3996C1E36496600905F76 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				47D3995A1E36436E00905F76 /* Main.storyboard */,
 				47D399681E36451F00905F76 /* TableViewController.h */,
 				47D399691E36451F00905F76 /* TableViewController.m */,
+				47D3996B1E36496600905F76 /* Task.h */,
+				47D3996C1E36496600905F76 /* Task.m */,
 				47D3995D1E36436E00905F76 /* Assets.xcassets */,
 				47D3995F1E36436E00905F76 /* LaunchScreen.storyboard */,
 				47D399621E36436E00905F76 /* Info.plist */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D3996D1E36496600905F76 /* Task.m in Sources */,
 				47D399591E36436E00905F76 /* ViewController.m in Sources */,
 				47D399561E36436E00905F76 /* AppDelegate.m in Sources */,
 				47D399531E36436E00905F76 /* main.m in Sources */,
